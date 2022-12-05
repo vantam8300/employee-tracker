@@ -149,7 +149,6 @@ function addRole() {
             // find department id match with chosen department name 
             let departmentId;
             for (let i = 0; i < results.length; i++) {
-                console.log(results[i].name, answer.departmentName)
                 if (results[i].name == answer.departmentName) {
                     departmentId = results[i].id;
                 }
@@ -262,7 +261,7 @@ function updateRole() {
                 {
                     type: "list",
                     name: "employee",
-                    message: "Which employee's roke do you want to update?",
+                    message: "Which employee's role do you want to update?",
                     choices: employees,
                 },
                 {
