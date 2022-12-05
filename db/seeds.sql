@@ -2,9 +2,9 @@ INSERT INTO department (name)
 VALUES ("IT"), ("HR");
 
 INSERT INTO role (title, salary, department_id) 
-VALUES ("Engineer", 1000, 1),
-("Intern", 100, 1),
-("Recruiter", 300, 2);
+VALUES ("Engineer", 100000, 1),
+("Intern", 50000, 1),
+("Recruiter", 70000, 2);
 
 
 INSERT INTO employee (first_name, last_name, role_id) 
